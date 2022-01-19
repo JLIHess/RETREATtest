@@ -1,0 +1,444 @@
+/* colors{
+    white: #FFFFFF;
+    darkblue: #12275C;
+    gold: #B69A6E;
+    otherdeepblue: #29326E;
+    bieg1: #F1E3D5;
+    biege2: #F2E4D6
+} */
+
+
+/**
+* 1. Centers the content.
+* 2. Feel free to change this, this sets the width
+* 3. Adds some internal 'padding' to the div
+*/
+
+
+
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left: auto; /* 1 */
+    max-width:1100px; /* 2 */
+    padding-right: 10px; /* 3 */
+    padding-left: 10px; /* 3 */
+    width: 90%;
+}
+
+h1, h2, h3, h4, h5{
+    font-weight: normal;
+}
+
+.footWrapper{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    font-size: 10px;
+    max-width: 560px;
+}
+
+.mainHeaderbkgd{
+    background-image: url(Pics/beach.jpg);
+    /* color: white; */
+    height: 500px;
+}
+
+.headerbkgd{
+    background-color: #12275C;
+    color: white;
+    /* height: 300px;
+    position: relative; */
+}
+
+.registrationHeader{
+    background-color: #12275C;
+    color: #FFFFFF;
+    height: 386px;
+    z-index: 1;
+    /* color: #f1e3d577; */
+}
+
+.registrationMainSpace{
+    /* background: #ddd; */
+    background: #f1e3d577;
+    /* width: 92%;
+    max-width: 920%; */
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    /* margin-top: -220px; */
+
+}
+
+.registration{
+   
+    margin-right: auto;
+    margin-left: auto; 
+    max-width:1100px; 
+    /* padding-right: 1px;
+    padding-left: 1px;  */
+    width: 90%;
+    margin-top: -220px;
+
+    /* position: center;
+    width:80%;
+    max-width: 500px; */
+    /* padding-bottom: 10px; */
+}
+
+.sidebarRegistration{
+    background-color: red;
+
+}
+
+.mainRegistration{
+    background: #FFFFFF;
+
+}
+
+.registrationForm{
+    padding: 10px;
+}
+
+
+
+
+.container-fluid{
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.goldBtn {
+    background: #B69A6E 0% 0% no-repeat padding-box;
+    border: none;
+    color: #FFFFFF;
+    padding: 9px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+  }
+
+  .mainHeadText {
+    text-align: center;
+    margin-top: 10%; 
+    color: #FFFFFF;
+  }
+
+  .headText {
+    /* this centers the text horizontally and vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+
+  .regHeadText{
+    /* width: 92%;
+    max-width: 920px; */
+    /* margin: 0 auto; */
+    text-align: center;
+  }
+
+  /* .regHeadText h1{
+    font-size: 4em;
+    color: #FFFFFF;
+    font-weight: 100;
+    margin-top: 50px;
+  } */
+
+  .hProgram {
+    /* background-color: #F2E4D6;     */
+    position: relative;
+    padding-bottom: 30px;
+  }
+  .programHead {
+    padding: 2%;
+    text-align: center;
+  }
+
+  .proImage {
+    border: 3px solid #B69A6E;
+    margin: 5%;
+  }
+
+  .headBtn{
+      border: 3px solid #B69A6E;
+      border-radius: 6px;
+      /* color: #B69A6E; */
+      /* padding-right: -100px; */
+
+      /* margin: 0 auto; */
+      /* justify-content: left;
+      align-items: left; */
+  }
+
+.leadText{
+    margin: 5%;
+
+}
+
+.purpBtn {
+    margin:0 auto;
+    display:block;
+    color: #29326E;
+    border: 5px solid #29326E;
+    background-color: inherit;
+    font-size: 30px;
+    border-radius: 6px;
+}
+
+.hvideo {
+background-color: #B69A6E;
+}
+
+.lefty{
+    color: #FFFFFF;
+    font-size: 70px;
+    text-align: center;
+}
+
+.rightSide{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.form-group{
+    margin-top: 20px;
+}
+.formPart{
+    margin-top: 30px;
+    border: #5f5f613a solid 0.1px;
+    padding: 10px;
+}
+
+.formHeader{
+    text-align: center;
+}
+
+label{
+    margin-bottom: 10px;
+}
+
+.sideInfo{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.paragraph-light{
+    opacity: 0.6;
+    color: #29326E;
+}
+
+.submitBtn{
+    background: #B69A6E;
+    color: #FFFFFF;
+}
+.details-wrap{
+    margin-bottom: 30px;
+}
+.label {
+    margin-bottom: 10px;
+}
+
+.pageHead{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.gold2{
+    color: #B69A6E;
+    /* font-size: 50%; */
+    margin-top: 20px;
+}
+
+.pageSec{
+    border-bottom: #29326e5c solid 1px;
+}
+
+.content-collapse {
+    padding: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.input2 {
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.content-inner {
+    margin-top: 20px;
+}
+
+.content-collapse-items {
+    width: 100%;
+    color: #29326E;
+    font-weight: 500;
+    border-bottom: 1px solid #a9a5a5;
+    overflow: hidden;
+    
+}
+.label-collapse {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    /* align-content: end; */
+}
+.label-collapse::after {
+    content: '\203A';
+    text-align: center;
+    /* text-align: right; */
+    transition: all .10s;
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.label-content {
+    max-height: 0;
+    padding: 0 1em;
+    transition: all .10s;
+}
+input[type="checkbox"]:checked + .label-collapse::after {
+    content: '\203A';
+    text-align: center;
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+input[type="checkbox"]:checked + .label-collapse ~ .label-content {
+    max-height: 100%;
+    padding: 16px;
+    color:#12275C;
+    font-weight: normal;
+}
+
+.facultyBackground{
+    background-color: #29326E;
+}
+
+
+.facultyPic{
+    width: auto;
+    height: 320px;
+    margin-bottom: 10px;
+    background-color: #f4f4f4;
+}
+
+
+.facultyInfo{
+margin-bottom: 30px;
+color: #FFFFFF;
+}
+
+.footText2{
+    color: #FFFFFF;
+}
+
+.spacer {
+    margin-top: 30px;
+}
+
+
+/* Countdown clock */
+
+.timerBack{
+    background-color: #12275C;
+}
+
+.clockWrapper{
+    margin-right: auto; /* 1 */
+    margin-left: auto; /* 1 */
+    max-width:500px; /* 2 */
+    padding-right: 10px; /* 3 */
+    padding-left: 10px; /* 3 */
+    width: 90%;
+}
+
+.clock{
+    text-align: center;
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+.countdownClock{
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+/* .with-chevron[aria-expanded='true'] i {
+    display: block;
+    transform: rotate(180deg) !important;
+  } */
+
+
+
+/* .label{
+    margin-bottom: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+} */
+
+
+
+
+/* .whiteout{
+    color: #FFFFFF;
+
+} */
+
+
+@media (max-width: 480px) {
+    /* For the mobile of the registration page */
+}
+
+
+@media (min-width: 768px) {
+    .purpBtn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+/* 
+    .facultyPic{
+        width: 100%;
+        height: 420px;
+        margin-bottom: 10px;
+        background-color: #f4f4f4;
+    } */
+
+}
+@media (min-width: 992px) {
+    .leadText{
+        margin: 0%;
+    }
+
+    .headBtn{
+        border: 3px solid #FFFFFF;
+        border-radius: 6px;
+        /* color: #FFFFFF; */
+    }
+
+    .footWrapper{
+        margin-top: 60px;
+    }
+}
+
+
+
+
+
+/* TIMER TEST */
